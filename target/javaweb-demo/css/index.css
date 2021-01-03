@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body {
+    background-image: url(../images/loginBac.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+ 
+.login_frame {
+    width: 400px;
+    height: 260px;
+    padding: 13px;
+ 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+ 
+    background-color: rgba(240, 255, 255, 0.5);
+ 
+    border-radius: 10px;
+    text-align: center;
+}
+ 
+ 
+.logo {
+    margin-top: 22px;
+	margin-left: 5px;
+	font-size: 32px;
+	font-family: 宋体;
+	margin-bottom: 25px;
+	color: #3BD9FF;
+}
+
+.span1 p{
+	font-size: 14px;
+	font-family: 宋体;
+	background-color: #3BD9FF;
+	width: 65px;
+	height: 28px;
+	margin-left: 20px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	line-height: 28px;
+	text-align: center;
+	float: left;
+}
+.span1{
+	margin-bottom: 15px;
+	width: 400px;
+	height: 30px;
+}
+.span2 p{
+	font-size: 14px;
+	font-family: 宋体;
+	background-color: #3BD9FF;
+	width: 65px;
+	height: 28px;
+	margin-left: 20px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	line-height: 28px;
+	text-align: center;
+	float: left;
+}
+.span2{
+	margin-bottom: 35px;
+	width: 400px;
+	height: 30px;
+}
+
+.text_field {
+
+    width: 278px;
+    height: 28px;
+	margin-right: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0;
+	outline: none;
+}
+
+.remember{
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+#login_control::before{
+	content: "";
+	clear: both;
+	display: block;
+}
+#btn {
+    font-size: 14px;
+    font-family: 宋体;
+ 
+    width: 60px;
+    height: 28px;
+	margin-right: 5px;
+    line-height: 28px;
+    text-align: center;
+ 
+    color: white;
+    background-color: #3BD9FF;
+    border-radius: 6px;
+    border: 0;
+	outline: none;
+ 
+    float: left;
+}
+#btn:hover{
+	border: white solid 1px;
+}
+
+ 
+#forget_pwd {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    float: right;
+    top: 5px;
+ 
+}
+ 
+#forget_pwd:hover {
+    color: blue;
+    text-decoration: underline;
+}
+ 
+#login_control {
+    padding: 0 28px;
+}
